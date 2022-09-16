@@ -48,6 +48,8 @@ body{  /* geral */
 }nav >p > a:hover{
     text-decoration: underline;
     color: rgba(179, 13, 91, 0.826);
+}nav > p {
+    margin: 0%;   
 }main{
     margin: auto;
     max-width: 600px;
@@ -94,9 +96,11 @@ body{  /* geral */
 }#sorteados{
     background-color: rgba(190, 51, 116, 0.381);
     padding: 1%;
-    border-radius: 20px ;
+    border-radius: 10px ;
     box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, 0.264);
     margin: auto;
+    border-collapse: collapse;
+   
     
     
 
@@ -106,53 +110,34 @@ body{  /* geral */
     font-size: 1em;
     border-radius: 10px ;
     background-color: rgba(255, 255, 255, 0.739);
-    text-overflow:initial;
+    
     
 }.ganhador{
     margin: 0px;
     padding-right: 2px;
     border: 1px solid rgba(179, 13, 91, 0.486);
     border-radius: 10px;
-    text-indent: 20px;
+    text-indent: 10px;
+    text-indent: 10px;
 
-}.no,.tel,.premio,td{
+}.no,.tel,.premio{
     margin: 0px;
-    padding: 01px;
+    padding: 10px;
     border: 1px solid rgba(179, 13, 91, 0.486);
     border-radius: 10px;
     text-align: center;
-}figcaption{
-    text-align: center;
-    font-size: 2em;
-    color: rgba(179, 13, 91, 0.826);
-    text-shadow: 1px 2px 3px  black;
-}table.ganhador {
-    margin:auto;
-    min-width: 300px;
-    max-width: 600px;
-    
-    
-    
    
+}.no{
+    padding: 10px;
+
 }th{
     
     border: 1px solid rgba(179, 13, 91, 0.486);
     border-radius: 10px ;
 }footer{
-    background-color: rgba(179, 13, 91, 0.826);
+    background-color: rgba(179, 13, 91, 0.712);
     padding: 1%;
-}div {
-    
-}.msg{
-    margin: auto;
-    text-indent: 40px;
-    max-width: 500px;
-    font-style: italic;
-
-
-}h2{
-    text-indent: 50px;
 }strong{
     font-weight: 600;
-    
+    text-indent: 5px;
 }

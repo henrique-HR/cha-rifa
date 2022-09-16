@@ -1,6 +1,6 @@
- 
+
 function  sortear() { 
- 
+  
   var ganhador = window.document.querySelectorAll('.ganhador')
   var teu = window.document.querySelectorAll('.tel')  
   var pre = window.document.querySelectorAll('.premio')
@@ -41,7 +41,10 @@ function  sortear() {
   }
 
   
+  
 }
+//setInterval(sortear,)
+
 
 
 
