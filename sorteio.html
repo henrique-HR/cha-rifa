@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sorteio</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/sorteio.css">
 </head>
 <body>
     <header>
-      <h1>Chá de rifa</h1>
-      <h1 id="hellena">Hellena</h1>
+        <h1  id="helena">Chá de rifa</h1>
+          
+        <h2 class="hellena">Hellena</h2>
+       
       <nav>
         <p>
             <a href="index.html"> inicio</a>
@@ -18,16 +20,14 @@
     </nav>  
     </header>
     <main>
-        <div class="imagen"></div>
+        <div class="imagen">
+            
+        </div>
         <div id="vamos">
             
             <h1>vamos lá !!!</h1>
             
         </div>
-        
-        
-     
-        
         <table id="sorteados">
          <th>nome</th><th>nº</th> 
          <th>telefone</th>
@@ -71,14 +71,15 @@
         </table>
        
         <div id="btnsorte"> 
-            <input type="button" value="sortear" onclick="sortear()">
+            <input type="button" value="embaralhar" onclick="sortear()">
+            <input type="button" value="sortear" onclick="parar()">
         </div>
         <!--<div class="test"></div>
         <div id="btnsorte"></div>-->
     </main>
             <script src="scripts/sorteio.js"></script>
     <footer>
-
+            @henrique.pl developer 
     </footer>
     
 </body>

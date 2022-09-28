@@ -12,7 +12,7 @@ body{  /* geral */
     background-position: left top ;
     background-attachment: fixed;
     position: relative;
-    min-height: 97vh;
+    min-height: 100vh;
     color: black;
     background-attachment: fixed;
     margin: 0px;
@@ -20,25 +20,37 @@ body{  /* geral */
    
   
 }header{
-    background-color: rgba(179, 13, 91, 0.826);
+    background-color: rgba(179, 13, 91, 0.721);
     padding-top: 1px;
+   
     
-}header>h1{
+}/*header>h1{
+    margin: 0%;
     font-size: 4em;
     font-weight: lighter;
-    line-height: 30px;
+    line-height: 20px;
     text-align: center;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.616);
-}h1#hellena{
-    font-family:var(--font);
-    font-size: 3em;
+}*/#helena{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    margin-top: 1%;
+    text-align: center;
+}h2.hellena{
+    line-height: 0.5em;
+text-align: center;
+font-family:var(--font);
+font-size: 4em;
+}h2.ola{
+    text-align: center;
+    margin: 0%;
 }nav{ 
    
     background-color: aliceblue;
     box-shadow: inset 1px 1px 10px 1px rgba(179, 13, 91, 0.826);
     text-align: center;
 }nav p a{
-    padding-right:5% ;
+    
     text-decoration: none;
     color:rgb(0, 0, 0);
     font-size: 2.2em;
@@ -49,18 +61,25 @@ body{  /* geral */
     text-decoration: underline;
     color: rgba(179, 13, 91, 0.826);
 }nav > p {
-    margin: 0%;   
+    margin: 0%;
 }main{
-    margin: auto;
+    margin: 0 auto;
     max-width: 600px;
     background-color: aliceblue;
-    font-size: 1.3em;
-    border-radius: 30px;
-  
-}main {/*sorteio*/
+    font-size: 1.5em;
     box-shadow: 0px 5px 10px 1px rgba(6, 6, 6, 0.277);
     border-radius: 30px;
-    padding: 10px;
+    padding: 0px;
+    overflow: hidden;
+}.msg{
+    margin: auto;
+    max-width: 550px;
+    padding: 5%;
+} span.boa{
+    margin-top: -50px;
+    display: block;
+    text-align:center;
+    padding-bottom: 5px;
 }div.imagen{
     background-image:url('../background/menina.PNG');
     background-position:center top ;
@@ -68,6 +87,7 @@ body{  /* geral */
     width: 250px;
     height: 120px;
     margin: auto;
+    overflow:auto;
    
     
    
@@ -89,7 +109,7 @@ body{  /* geral */
     font-size: 1.2em;
     width: auto;
     font-weight: bold;
-    box-shadow: 1px 1px 10px 0.5px rgba(0, 0, 0, 0.348);
+    box-shadow: 1px 1px 10px 0.5px rgba(0, 0, 0, 0.348);margin-top:10px;
 }#btnsorte>input:hover{
     box-shadow: 1px 1px 10px 0.5px rgba(0, 0, 0, 0.542);
     background-color: rgba(190, 51, 116, 0.769);
@@ -100,6 +120,7 @@ body{  /* geral */
     box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, 0.264);
     margin: auto;
     border-collapse: collapse;
+    height: 300px;
    
     
     
@@ -119,6 +140,7 @@ body{  /* geral */
     border-radius: 10px;
     text-indent: 10px;
     text-indent: 10px;
+    min-width:150px;
 
 }.no,.tel,.premio{
     margin: 0px;
@@ -130,6 +152,9 @@ body{  /* geral */
 }.no{
     padding: 10px;
 
+}.tel{
+
+width: 130px;
 }th{
     
     border: 1px solid rgba(179, 13, 91, 0.486);
@@ -137,7 +162,12 @@ body{  /* geral */
 }footer{
     background-color: rgba(179, 13, 91, 0.712);
     padding: 1%;
-}strong{
-    font-weight: 600;
-    text-indent: 5px;
+    text-align: center;
+    font-size: 2rem;
+}strong.obg{
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+    font-family: var(--font);
+
 }

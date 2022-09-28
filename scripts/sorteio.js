@@ -1,5 +1,5 @@
-
-function  sortear() { 
+let set 
+const escolher=()=>{ 
   
   var ganhador = window.document.querySelectorAll('.ganhador')
   var teu = window.document.querySelectorAll('.tel')  
@@ -7,9 +7,9 @@ function  sortear() {
   var num = window.document.querySelectorAll('.no')
 
   var con1=[]
-  var nome = ['henrique ','roger   ','gustavo','priscila','zoio','claber','doidin','caue','none','renan','caique','pedro','julia','guilherme']
+  var nome = ['henrique1 ','roger2   ','gustavo3','priscila4','zoio5','claber','doidin','caue','none','renan','caique','pedro','julia','guilherme']
   
-  var tel =['83 99965-3213','83 99965-3213','83 99965-3213','83 99965-3213','83 99965-3213','83 99965-3213','83 99965-3213','83 99965-3213','83 99965-3213','83 99965-3213','83 99965-3213','83 99965-3213' ,'83 99965-3213','83 99965-3213']
+  var tel =['0' , '1651', '051691' ,'00611','6169161','1913160','16165060','616981651','6169']
   var premio =  ['combo','pizza','unha','roupa','tenis','coca']
   var i=0,j=0,igual,vetor=[]
 
@@ -43,44 +43,20 @@ function  sortear() {
   
   
 }
-//setInterval(sortear,)
+const sortear =()=>{
+
+ set = setInterval(escolher,100)
+
+}
+
+
+
+const parar = ()=>{
+  clearInterval(set)
+}
 
 
 
 
 
-        //codigo reserva ganhador[i].innerHTML =`<strong>${i+1}º</strong> ${nome[con1[i]]} | nº ecolhido(${vetor[i]})| ${tel} |  ${premio[i]} `
-  
-  /*for(){
 
-
-  }
-  for(){
-
-
-  }*/
- /*
-var i =0;
-var j =[];
-var vet=[];
-var igual
-
-do{
-   vet[i] = Math.floor(Math.random()*100);
-   igual=0
-  
-      for( j=0; j<i ;j++){
-          if(vet[j]==vet[i]){
-            igual = 1
-          }
-      }
-      if(igual==0){
-        i++
-      }
-
-
-}while(i < 5)
-for(c=0;c<5;c++){
-  console.log(vet[c])
-
-}*/
